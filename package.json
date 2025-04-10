@@ -1,0 +1,23 @@
+{
+  "name": "secure-payload-hmac",
+  "version": "1.0.0",
+  "description": "Lightweight HMAC-based payload signing and verification for securing HTTP requests.",
+  "main": "src/index.js",
+  "keywords": [
+    "payload",
+    "HMAC",
+    "secure",
+    "api",
+    "signature",
+    "hash",
+    "authentication",
+    "verification"
+  ],
+  "author": "Obafemi Solomon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solexki/secure-payload-hmac"
+  },
+  "dependencies": {}
+}
