@@ -28,6 +28,7 @@ Existing solutions, while robust, often felt like overkill for such a lightweigh
 ```bash
 npm install secure-payload-hmac
 ```
+---
 
 ## Usage
 
@@ -42,7 +43,7 @@ console.log(signed);
 //   payload: { userId: 42 },
 //   signature: 'a1b2c3...'
 // }
-````
+```
 
 # Server (verify payload)
 
@@ -56,17 +57,21 @@ app.post('/protected', verifyPayload('my-secret'), (req, res) => {
   res.json({ status: 'OK', data: req.body });
 });
 ```
-
+---
 ## 🤝 Contributing
 
 I'm building this with simplicity and purpose in mind. If you have ideas for improvements, optimizations, or additional features, your contributions are welcome!
 
 The long-term goal is to remain lightweight, transparent, and useful to developers who need just a little more security without extra baggage.
 
+---
+
 ## ⚠️ Important Note
 
 This package is intended for Node.js environments only.
 It will not work in React or other browser-based applications due to reliance on the native crypto module.
+
+---
 
 ## 🧩 License
 
