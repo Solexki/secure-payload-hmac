@@ -25,9 +25,9 @@ Existing solutions, while robust, often felt like overkill for such a lightweigh
 
 ## 📦 Installation
 
-````bash
+```bash
 npm install secure-payload-hmac
-
+```
 
 ## Usage
 
